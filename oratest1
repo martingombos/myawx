@@ -1,0 +1,7 @@
+---
+  - name: Test custom modules including oracle
+    hosts: all
+    gather_facts: no
+    tasks:
+      - name: testing custom modules
+        oratest1: name=Gaurav age=18
